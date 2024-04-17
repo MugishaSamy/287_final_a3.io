@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 8 - ADopt a Dog/Cat</title>
+    <style>
+        body {
+            background-color: burlywood;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+            height: 100px;
+            background-image: url('img/logo.JPG');
+            background-size: contain;
+            text-align: center;
+            height: 20vw;
+
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            width: 200px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+
+        .menu {
+            background-color: bisque;
+            justify-content: space-around;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        #welcome-message {
+            float: right;
+            font-family: 'Courier New', Courier, monospace;
+
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 0;
+            margin-top: 0;
+            height: 20vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DOG/CAT ADOPTION SERVICE</h1>
+        <!-- <img src="img/paw-print.png" alt=""> -->
+
+    </header>
+
+    <div>
+        <ul class="menu">
+            <li><a class="active" href="a1_q8.html">Home</a></li>
+            <li><a href="findadogcat.html">Find a dog/cat</a></li>
+            <li><a href="dogcare.html">Dog Care</a></li>
+            <li><a href="catcare.html">Cat Care</a></li>
+            <li><a href="petgiveaway.html">Have a pet to give away</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <div>
+        <h1>DOG/CAT ADOPTION SERVICE</h1>
+
+        <form id="dog-cat-survey">
+            <fieldset>
+                <legend>Find a dog/cat</legend>
+                <label id="cat-label"><input type="radio" name="female" id="female" value="select">Cat
+                </label>
+                <label id="dog-label"> <input type="radio" name="female" id="female" value="select">Dog
+                </label><br> <br>
+                <label>Breed of Dog or Cat </label><br>
+                <label><input type="text"></label><br><br>
+                <label id="gender-label">Gender <input type="radio" name="female" id="female" value="select"> Female
+                </label>
+                <label id="male-label"><input type="radio" name="male" id="male" value="select">Male</label><br><br>
+                <label id="age-label">Age of Animal? <select name="ageCategory" id="age-dropdown">
+                        <option>1-5</option>
+                        <option>5+</option>
+
+
+                    </select></label><br><br>
+                <label>Does it need to get along with other dogs/cats/small children? </label><br>
+                <label><input type="text"></label><br><br>
+
+
+            </fieldset> <br><br>
+
+
+        </form>
+
+        <p>Thank you for taking the time to fill out our form!
+            <br><br><input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </p>
+    </div>
+    <footer>
+        <p>Your information will not be sold or misused, and protects the website builder from any incorrect information
+            posted by a pet owner and so on.
+        </p>
+    </footer>
+
+</body>
+
+</html>
